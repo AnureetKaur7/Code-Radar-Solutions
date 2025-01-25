@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a;
-    scanf("%d",&a);
+    float a;
+    scanf("%f",&a);
     float pie;
     pie=3.14;
     float area;
