@@ -13,5 +13,8 @@ int main() {
             printf("Scalene");
         }
     }
+    else{
+        printf("Invalid");
+    }
     return 0;
 }
