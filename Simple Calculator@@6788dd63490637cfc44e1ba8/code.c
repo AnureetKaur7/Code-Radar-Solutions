@@ -4,20 +4,20 @@ int main(){
     char c;
     scanf("%d %d %d",&a,&b,&c);
     if(c = '+'){
-        result == a+b;
-        printf("result");
+        result = a+b;
+        printf("%d",result);
     }
     else if(c = '-'){
-        result == a-b;
-        printf("result");
+        result = a-b;
+        printf("%d",result);
     }
     else if(c = '*'){
-        result == a*b;
-        printf("result");
+        result = a*b;
+        printf("%d",result);
     }
     else if(c == '/'){
         result = a/b;
-        printf("result");
+        printf("%d",result);
     }            
     return 0;
 }
