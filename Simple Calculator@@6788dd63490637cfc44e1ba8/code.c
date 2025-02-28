@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int a,b,results;
-    float result;
+    int result;
     char c;
     scanf("%d %d %d",&a,&b,&c);
     if(c = '+'){
@@ -18,7 +18,7 @@ int main(){
     }
     else if(c = '/'){
         result = a/b;
-        printf("%.2f",result);
+        printf("%d",result);
     }            
     return 0;
 }
