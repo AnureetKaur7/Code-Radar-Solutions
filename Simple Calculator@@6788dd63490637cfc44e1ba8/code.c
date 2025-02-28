@@ -17,9 +17,9 @@ int main(){
         printf("%d",results);
     }
     else if(c == '/'){
-        if(a%b==0){
-        result = a/b;
-        printf("%d",result);
+        if(b != 0){  // Check if the denominator is non-zero to avoid division by zero
+            result = a / b;
+            printf("%d", result);
         }
         else{
             printf("error");
