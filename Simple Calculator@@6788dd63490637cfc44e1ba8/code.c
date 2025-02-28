@@ -1,23 +1,24 @@
 #include<stdio.h>
 int main(){
-    int a,b,result;
+    int a,b,results;
+    float result;
     char c;
     scanf("%d %d %d",&a,&b,&c);
     if(c = '+'){
         result = a+b;
-        printf("%d",result);
+        printf("%d",results);
     }
     else if(c = '-'){
         result = a-b;
-        printf("%d",result);
+        printf("%d",results);
     }
     else if(c = '*'){
         result = a*b;
-        printf("%d",result);
+        printf("%d",results);
     }
     else if(c = '/'){
         result = a/b;
-        printf("%d",result);
+        printf("%.2f",result);
     }            
     return 0;
 }
